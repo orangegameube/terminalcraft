@@ -6,7 +6,7 @@ import pandas as pd
 
 URL = input("Enter the website URL: ")
 HTMLVar = input("Enter HTML tags you're looking for separated by spaces (one tag for each selection of data you want): ")
-IDVar = input('Enter the HTML classes you are looking for, again in order and one per selection. If none, type "N": ')
+IDVar = input('Enter the HTML classes you are looking for, again in order and one per selection. If none, type "N" (type N once per HTML tag, so x times if x tags): ')
 tagList = HTMLVar.split()
 idList = IDVar.split()
 
